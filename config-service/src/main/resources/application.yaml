@@ -55,6 +55,6 @@ eureka:
 management:
   zipkin:
     tracing:
-      endpoint: http://zipkin.razorpay-core.svc.cluster.local:9411/api/v2/spans
+      endpoint: http://zipkin.nexuspay-core.svc.cluster.local:9411/api/v2/spans
 
 

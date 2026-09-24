@@ -1,7 +1,7 @@
-com.codingshuttle.razorpay.common_lib.util.SharedSecurityAutoConfiguration
-com.codingshuttle.razorpay.common_lib.config.SharedKafkaAutoConfiguration
-com.codingshuttle.razorpay.common_lib.web.SharedWebFilterAutoConfiguration
-com.codingshuttle.razorpay.common_lib.idempotency.SharedResilienceAutoConfiguration
-com.codingshuttle.razorpay.common_lib.audit.SharedAuditAutoConfiguration
-com.codingshuttle.razorpay.common_lib.exception.SharedExceptionAutoConfiguration
-com.codingshuttle.razorpay.common_lib.config.ZipkinConfig
+util.com.coding.nexuspay.common_lib.SharedSecurityAutoConfiguration
+config.com.coding.nexuspay.common_lib.SharedKafkaAutoConfiguration
+web.com.coding.nexuspay.common_lib.SharedWebFilterAutoConfiguration
+idempotency.com.coding.nexuspay.common_lib.SharedResilienceAutoConfiguration
+audit.com.coding.nexuspay.common_lib.SharedAuditAutoConfiguration
+exception.com.coding.nexuspay.common_lib.SharedExceptionAutoConfiguration
+config.com.coding.nexuspay.common_lib.ZipkinConfig

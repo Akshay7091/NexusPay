@@ -19,7 +19,7 @@ resources:
 
 secretGenerator:
   - name: app-secrets
-    namespace: razorpay-core
+    namespace: nexuspay-core
     envs:
       - k8s-secrets.env
 

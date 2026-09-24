@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/razorpay-project.iml" filepath="$PROJECT_DIR$/.idea/razorpay-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nexuspay-project.iml" filepath="$PROJECT_DIR$/.idea/nexuspay-project.iml" />
     </modules>
   </component>
 </project>

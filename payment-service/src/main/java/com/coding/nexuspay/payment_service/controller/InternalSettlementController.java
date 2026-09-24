@@ -1,0 +1,27 @@
+package com.coding.nexuspay.payment_service.controller;
+
+import com.coding.nexuspay.common_lib.dto.PaymentSettlementView;
+import com.coding.nexuspay.payment_service.api.PaymentLookupService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.UUID;
+
+@RestController
+@RequiredArgsConstructor
+@RequestMapping("/internal/payments")
+public class InternalSettlementController {
+
+    private final PaymentLookupService settlementLookupService;
+
+    @GetMapping("/unsettled-captured")
+    public List<PaymentSettlementView> findUnsettledCaptured(@RequestParam UUID merchantId) {
+        return settlementLookupService.findUnsettledCapturedPayments(merchantId);
+    }
+
+    @PostMapping("/mark-settled")
+    public void markSettled(@RequestBody List<UUID> paymentIds) {
+        settlementLookupService.markSettled(paymentIds);
+    }
+}
